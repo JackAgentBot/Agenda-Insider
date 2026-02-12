@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planning Intel Onboarding</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 600px; margin: 20px auto; padding: 10px; }
+        form { display: flex; flex-direction: column; }
+        label { margin-top: 15px; font-weight: bold; }
+        input, textarea, select { margin-top: 5px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; }
+        button { margin-top: 20px; padding: 10px; background: #007bff; color: white; border: none; cursor: pointer; }
+        .teammate { margin-top: 10px; border: 1px dashed #ccc; padding: 10px; }
+    </style>
+</head>
+<body>
+    <h2>Welcome to Planning Intel!</h2>
+    <p>This takes 2–3 minutes and helps us tailor your briefs. All from memory—no digging needed. Let's get you that edge!</p>
+
+    <form id="onboardingForm" onsubmit="submitForm(event)">
+        <label for="nameRole">1. Your Name and Role</label>
+        <input type="text" id="nameRole" name="nameRole" required placeholder="e.g., John Doe, Owner/Estimator">
+
+        <label for="companyWebsite">2. Company Name and Website (if you have one)</label>
+        <input type="text" id="companyWebsite" name="companyWebsite" required placeholder="e.g., Doe Excavation Co., www.doeexcavation.com">
+
+        <label for="proudProject">3. Tell us about a recent project you're proud of—boast a bit! What made it a win?</label>
+        <textarea id="proudProject" name="proudProject" rows="3" placeholder="e.g., Graded 150-lot subdivision in Lehi—finished 2 weeks early!"></textarea>
+
+        <label for="businessVision">4. What's your vision for the business in the next 12–24 months? (e.g., expand regions, add crews, hit revenue goals)</label>
+        <textarea id="businessVision" name="businessVision" rows="3" placeholder="e.g., Double our fleet and break into commercial pads."></textarea>
+
+        <label>5. Preferred Regions (select up to 3 to start—$99/mo each)</label>
+        <select name="regions" multiple required>
+            <option value="Wasatch Front">Wasatch Front (UT)</option>
+            <option value="Clark County">Clark County (NV)</option>
+            <option value="Phoenix Metro">Phoenix Metro (AZ)</option>
+            <!-- Add more from our list as needed -->
+        </select>
+
+        <label>6. What types of projects light you up? (check all that apply—boast if you want!)</label>
+        <input type="checkbox" name="projectTypes" value="Subdivisions (>50 lots)"> Subdivisions (>50 lots)<br>
+        <input type="checkbox" name="projectTypes" value="Commercial pads"> Commercial pads<br>
+        <input type="checkbox" name="projectTypes" value="Utilities/road work"> Utilities/road work<br>
+        <input type="checkbox" name="projectTypes" value="Multifamily"> Multifamily<br>
+        <input type="checkbox" name="projectTypes" value="Industrial"> Industrial<br>
+        <input type="text" name="otherProjects" placeholder="Other (e.g., My biggest boast: 200-lot win last quarter!)">
+
+        <label>7. Teammates to Add? (Share access—unlimited users)</label>
+        <div class="teammate">
+            <input type="text" name="teammate1" placeholder="e.g., Sarah Smith, sarah@company.com, Estimator">
+        </div>
+        <button type="button" onclick="addTeammate()">Add Another Teammate</button>
+
+        <label for="petPeeves">8. Any pet peeves or must-haves in agenda intel? (e.g., "Ignore small lots," "Love developer contacts")</label>
+        <textarea id="petPeeves" name="petPeeves" rows="3" placeholder="e.g., Focus on explosive growth areas for land buys!"></textarea>
+
+        <button type="submit">Submit & Get Started</button>
+    </form>
+
+    <script>
+        function addTeammate() {
+            const form = document.getElementById('onboardingForm');
+            const div = document.createElement('div');
+            div.className = 'teammate';
+            div.innerHTML = '<input type="text" name="teammate" placeholder="e.g., Mike Johnson, mike@company.com, Project Manager">';
+            form.insertBefore(div, form.lastElementChild);
+        }
+
+        function submitForm(event) {
+            event.preventDefault();
+            // Here, developers can add code to send data to backend (e.g., via fetch to API)
+            alert('Form submitted! Your first brief is on its way.');
+        }
+    </script>
+</body>
+</html>

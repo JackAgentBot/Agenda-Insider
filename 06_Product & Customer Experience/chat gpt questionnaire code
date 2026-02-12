@@ -1,0 +1,369 @@
+{
+  "title": "Planning Agenda Biz - 3 Minute Onboarding",
+  "description": "Answer a few quick questions so your planning intel feels like it was built just for you.",
+  "version": 1,
+  "pages": [
+    {
+      "id": "you-and-company",
+      "title": "You & Your Company",
+      "estimatedSeconds": 45,
+      "fields": [
+        {
+          "id": "your_name",
+          "label": "Your name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "id": "your_role",
+          "label": "Your role",
+          "type": "singleSelect",
+          "required": true,
+          "options": [
+            { "value": "owner", "label": "Owner / Principal" },
+            { "value": "partner", "label": "Partner" },
+            { "value": "bd_sales", "label": "Business Development / Sales" },
+            { "value": "estimator_precon", "label": "Estimator / Precon" },
+            { "value": "project_manager", "label": "Project Manager" },
+            { "value": "other", "label": "Other" }
+          ],
+          "otherFieldId": "your_role_other"
+        },
+        {
+          "id": "your_role_other",
+          "label": "Other role",
+          "type": "text",
+          "required": false,
+          "visibleIf": {
+            "fieldId": "your_role",
+            "equals": "other"
+          }
+        },
+        {
+          "id": "company_name",
+          "label": "Company name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "id": "company_best_description",
+          "label": "What does your company do best?",
+          "type": "textarea",
+          "required": true,
+          "placeholder": "Brag a little. One sentence is perfect."
+        },
+        {
+          "id": "company_revenue_band",
+          "label": "Rough annual revenue (pick a band)",
+          "type": "singleSelect",
+          "required": true,
+          "options": [
+            { "value": "under_5m", "label": "Under $5M" },
+            { "value": "5_to_10m", "label": "$5M–$10M" },
+            { "value": "10_to_25m", "label": "$10M–$25M" },
+            { "value": "25_to_50m", "label": "$25M–$50M" },
+            { "value": "50m_plus", "label": "$50M+" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "regions",
+      "title": "Where You Work",
+      "estimatedSeconds": 30,
+      "fields": [
+        {
+          "id": "regions_selected",
+          "label": "Which regions do you want us watching for you?",
+          "type": "multiSelect",
+          "required": true,
+          "options": [
+            { "value": "lv_clark", "label": "Las Vegas / Clark County" },
+            { "value": "henderson_boulder", "label": "Henderson / Boulder City area" },
+            { "value": "north_lv", "label": "North Las Vegas" },
+            { "value": "utah_county", "label": "Utah County (Provo, Orem, Lehi, etc.)" },
+            { "value": "salt_lake_county", "label": "Salt Lake County" },
+            { "value": "weber_davis", "label": "Weber / Davis" },
+            { "value": "washington_county", "label": "Washington County (St. George area)" },
+            { "value": "other", "label": "Other key areas" }
+          ],
+          "otherFieldId": "regions_other"
+        },
+        {
+          "id": "regions_other",
+          "label": "Other key areas you care about",
+          "type": "text",
+          "required": false,
+          "visibleIf": {
+            "fieldId": "regions_selected",
+            "includes": "other"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sweet-spot",
+      "title": "Your Sweet Spot Jobs",
+      "estimatedSeconds": 60,
+      "fields": [
+        {
+          "id": "project_types",
+          "label": "What types of projects are you most interested in?",
+          "type": "multiSelect",
+          "required": true,
+          "options": [
+            { "value": "dirt_excavation", "label": "Dirt / excavation / site work" },
+            { "value": "subdivisions", "label": "Subdivisions (lots & streets)" },
+            { "value": "townhomes_small_mf", "label": "Townhomes / small multifamily" },
+            { "value": "large_mf", "label": "Large multifamily (100+ units)" },
+            { "value": "commercial_retail", "label": "Commercial / retail centers" },
+            { "value": "industrial_flex", "label": "Industrial / flex / warehouse" },
+            { "value": "public_civic", "label": "Public / civic (schools, parks, etc.)" },
+            { "value": "other", "label": "Other" }
+          ],
+          "otherFieldId": "project_types_other"
+        },
+        {
+          "id": "project_types_other",
+          "label": "Other project types",
+          "type": "text",
+          "required": false,
+          "visibleIf": {
+            "fieldId": "project_types",
+            "includes": "other"
+          }
+        },
+        {
+          "id": "typical_job_size",
+          "label": "Typical job size that makes you smile (pick your main lane)",
+          "type": "singleSelect",
+          "required": true,
+          "options": [
+            { "value": "under_500k", "label": "Under $500K" },
+            { "value": "500k_to_2m", "label": "$500K–$2M" },
+            { "value": "2m_to_5m", "label": "$2M–$5M" },
+            { "value": "5m_to_15m", "label": "$5M–$15M" },
+            { "value": "15m_plus", "label": "$15M+" }
+          ]
+        },
+        {
+          "id": "clone_jobs",
+          "label": "If we could magically clone 1–2 past jobs for you this year, which ones would they be?",
+          "type": "textarea",
+          "required": false,
+          "placeholder": "Name the project(s) and why you liked them (location + rough type/size is enough)."
+        }
+      ]
+    },
+    {
+      "id": "vision",
+      "title": "Where You’re Trying to Go",
+      "estimatedSeconds": 45,
+      "fields": [
+        {
+          "id": "next_12_24_goal",
+          "label": "In the next 12–24 months, you want to:",
+          "type": "multiSelect",
+          "required": true,
+          "options": [
+            { "value": "more_same", "label": "Do more of what we’re already doing (same project types, more volume)" },
+            { "value": "bigger_jobs", "label": "Do bigger jobs than we do today" },
+            { "value": "more_private", "label": "Move into more private work (less public)" },
+            { "value": "more_public", "label": "Move into more public work (cities, schools, etc.)" },
+            { "value": "more_land_spec", "label": "Do more land / spec deals for ourselves" },
+            { "value": "other", "label": "Other goal for the business" }
+          ],
+          "otherFieldId": "next_12_24_goal_other"
+        },
+        {
+          "id": "next_12_24_goal_other",
+          "label": "Other goal for the business",
+          "type": "textarea",
+          "required": false,
+          "visibleIf": {
+            "fieldId": "next_12_24_goal",
+            "includes": "other"
+          }
+        },
+        {
+          "id": "two_year_vision",
+          "label": "If our intel does its job, how should your business look in 2 years?",
+          "type": "textarea",
+          "required": false,
+          "placeholder": "More crews, more revenue, new markets, owning more dirt, etc."
+        }
+      ]
+    },
+    {
+      "id": "macro-land",
+      "title": "Macro Growth & Land Play",
+      "estimatedSeconds": 30,
+      "fields": [
+        {
+          "id": "land_interest",
+          "label": "Are you actively interested in buying land or doing speculative deals?",
+          "type": "singleSelect",
+          "required": true,
+          "options": [
+            { "value": "yes", "label": "Yes – we want to buy dirt near future growth pockets" },
+            { "value": "maybe", "label": "Maybe – we’d like to see those signals and decide" },
+            { "value": "no", "label": "Not really – just feed us projects to bid" }
+          ]
+        },
+        {
+          "id": "macro_intel_pref",
+          "label": "What kind of “macro” intel would be most useful to you? (Pick your top two.)",
+          "type": "multiSelect",
+          "required": false,
+          "maxSelections": 2,
+          "options": [
+            { "value": "mf_explosion", "label": "Areas where multifamily is about to explode" },
+            { "value": "retail_nodes", "label": "Corridors where retail (Starbucks, grocers, etc.) is clustering" },
+            { "value": "industrial_growth", "label": "Industrial / logistics growth zones" },
+            { "value": "rooftops_pipeline", "label": "Submarkets with lots of new rooftops in the pipeline" },
+            { "value": "sleeper_areas", "label": "“Sleeper” areas just starting to heat up" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "team",
+      "title": "Your Team & Seats",
+      "estimatedSeconds": 60,
+      "fields": [
+        {
+          "id": "teammates",
+          "label": "Who else on your team should get our intel?",
+          "type": "repeatableGroup",
+          "required": false,
+          "minItems": 0,
+          "maxItems": 10,
+          "itemLabel": "Teammate",
+          "fields": [
+            {
+              "id": "teammate_name",
+              "label": "Name",
+              "type": "text",
+              "required": true
+            },
+            {
+              "id": "teammate_role",
+              "label": "Role",
+              "type": "text",
+              "required": true
+            },
+            {
+              "id": "teammate_email",
+              "label": "Email",
+              "type": "text",
+              "inputMode": "email",
+              "required": true
+            },
+            {
+              "id": "teammate_mobile",
+              "label": "Mobile (for text alerts, optional)",
+              "type": "text",
+              "inputMode": "tel",
+              "required": false
+            },
+            {
+              "id": "teammate_subscriptions",
+              "label": "What should they receive?",
+              "type": "multiSelect",
+              "required": true,
+              "options": [
+                { "value": "weekly_brief", "label": "Weekly email brief" },
+                { "value": "daily_text", "label": "Daily “do this now” text" },
+                { "value": "portal_only", "label": "Portal access only" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "main_decision_maker",
+          "label": "Who is the main decision-maker on which opportunities to chase?",
+          "type": "singleSelect",
+          "required": true,
+          "options": [
+            { "value": "me", "label": "Me" },
+            { "value": "other", "label": "Someone else" }
+          ],
+          "otherFieldId": "main_decision_maker_other"
+        },
+        {
+          "id": "main_decision_maker_other",
+          "label": "Name & role of main decision-maker",
+          "type": "text",
+          "required": false,
+          "visibleIf": {
+            "fieldId": "main_decision_maker",
+            "equals": "other"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cadence",
+      "title": "Cadence & Channel Preferences",
+      "estimatedSeconds": 30,
+      "fields": [
+        {
+          "id": "alert_frequency",
+          "label": "How often do you want us to flag new opportunities for you?",
+          "type": "singleSelect",
+          "required": true,
+          "options": [
+            { "value": "weekly_only", "label": "Weekly summary is enough" },
+            { "value": "weekly_plus_daily_text", "label": "A weekly summary + a daily “do this now” text" },
+            { "value": "daily_email_and_text", "label": "Daily, both email + text (I like lots of signal)" }
+          ]
+        },
+        {
+          "id": "daily_text_time",
+          "label": "Best time of day for your daily “do this now” text (if you choose it)",
+          "type": "singleSelect",
+          "required": false,
+          "options": [
+            { "value": "6_8_am", "label": "6–8 am" },
+            { "value": "8_10_am", "label": "8–10 am" },
+            { "value": "10_12_pm", "label": "10–12 pm" },
+            { "value": "afternoon", "label": "Afternoon is better" },
+            { "value": "anytime", "label": "Anytime – I’ll see it" }
+          ]
+        },
+        {
+          "id": "primary_channel",
+          "label": "Preferred primary channel",
+          "type": "singleSelect",
+          "required": true,
+          "options": [
+            { "value": "email", "label": "Email first" },
+            { "value": "text", "label": "Text first" },
+            { "value": "both", "label": "I’m good with both" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brag",
+      "title": "One Last Brag (Optional, But Fun)",
+      "estimatedSeconds": 30,
+      "fields": [
+        {
+          "id": "proud_project",
+          "label": "What’s one project you’re really proud of?",
+          "type": "textarea",
+          "required": false,
+          "placeholder": "Name it, and why it matters to you. We’ll keep it in mind when we look for “more like this.”"
+        },
+        {
+          "id": "anything_else",
+          "label": "Anything else we should know to spot the right deals for you?",
+          "type": "textarea",
+          "required": false,
+          "placeholder": "Specialties, cities you avoid, partners you love working with, etc."
+        }
+      ]
+    }
+  ]
+}
