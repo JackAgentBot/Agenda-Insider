@@ -84,29 +84,31 @@ Launch Utah HBA email campaign to achieve **4% subscription conversion** (80 pai
 
 ---
 
-## PRICING DISCUSSION (PENDING AARON'S DECISION)
+## PRICING (CONFIRMED BY AARON - FEB 13, 2026)
 
-### Option 1: Flat Subscription ($149/mo) - JACK'S RECOMMENDATION
-- **Pro:** Simple, no friction, easy to test conversion
-- **Con:** Leaves money on table from multi-region customers
-- **ARR at 52 subs:** $93k
+### Final Pricing Structure
+- **$100/month** for first region
+- **$50/month** for each additional region
+- **14-day free trial** (full access, credit card required)
+- **Cancel anytime, no contracts**
 
-### Option 2: Geography-Based Tiers ($99/$149/$249)
-- **$99/mo** - Single county
-- **$149/mo** - Utah All-Access
-- **$249/mo** - Regional All-Access (Utah + Nevada)
-- **Pro:** Captures more value, natural upgrade path
-- **Con:** Requires "which county?" decision at signup
+### Examples
+- 1 region (Utah County only): $100/mo
+- 2 regions (Utah + Salt Lake): $150/mo
+- 4 regions: $250/mo
 
-### Option 3: Capability-Based ($99/$199)
-- **$99/mo** - Starter (alerts only)
-- **$199/mo** - Pro (alerts + map + explore + API)
-- **Pro:** Clear value ladder, 80% choose Pro
-- **Con:** Requires two distinct product experiences
+### Currently Live Regions
+- Utah County
+- Salt Lake County
 
-**Jack's Recommendation:** Start with Option 1 ($149/mo flat), evolve to Option 2 after 20+ paying customers.
+### Product Description
+Agenda Insider gives construction professionals early access to pre-permit planning data. Explore page lets users browse upcoming projects before permits are filed. Map shows project locations geographically. Intelligence competitors don't have — subscribers find out before permits go public.
 
-**Aaron's Decision:** PENDING
+### Revenue Projections (Updated Feb 13)
+- **20,000 targets × 4% = 800 subscribers**
+- **Scenario 1 (1 region avg):** 800 × $100/mo = $80,000/mo = **$960,000 ARR**
+- **Scenario 2 (1.5 regions avg):** 800 × $150/mo = $120,000/mo = **$1,440,000 ARR**
+- **Scenario 3 (2 regions avg):** 800 × $200/mo = $160,000/mo = **$1,920,000 ARR**
 
 ---
 
