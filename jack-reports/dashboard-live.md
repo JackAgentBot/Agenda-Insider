@@ -1,150 +1,202 @@
 # Jack's Workflow Dashboard — LIVE
-Last Updated: 2026-02-14 05:56 UTC (10:56 PM MT)
+**Last Updated**: 2026-02-14 11:30 AM MT (5:30 PM UTC)  
+**GitHub URL**: https://github.com/JackAgentBot/Agenda-Insider/blob/main/jack-reports/dashboard-live.md
 
 ---
 
-## 🔥 WARMUP STATUS
+## 📊 CURRENT STATUS SNAPSHOT
 
-### Email Domains in Warmup
-| Domain | Status | Current Day | Daily Limit | Next Milestone |
-|--------|--------|-------------|-------------|----------------|
-| **agendainsidernews.com** | ⚠️ UNKNOWN | ? | ? | Need Smartlead API check |
-| **agendainsidernow.com** | ⚠️ UNKNOWN | ? | ? | Need Smartlead API check |
-| **agendaintel.com** | ⚠️ UNKNOWN | ? | ? | Need Smartlead API check |
-
-**ACTION NEEDED**: Connect to Smartlead API to pull real-time warmup status. Current status is placeholder—need live data.
-
----
-
-## 📊 PIPELINE STATUS
-
-### Lead Generation & Outreach
-| Metric | Current | Goal | Status |
-|--------|---------|------|--------|
-| **Contacts Identified** | ⚠️ UNKNOWN | 5,000 | Need Apollo/HubSpot sync |
-| **Emails Drafted** | ⚠️ UNKNOWN | 500 | Need campaign audit |
-| **Emails Sent (This Week)** | ⚠️ UNKNOWN | 1,000 | Need Smartlead data |
-| **Opens** | ⚠️ UNKNOWN | 200 (20%) | Need Smartlead data |
-| **Replies** | ⚠️ UNKNOWN | 20 (2%) | Need Smartlead data |
-| **Trials Started** | 0 | 10 | No trial system yet |
-| **Subscribers (Active)** | ⚠️ UNKNOWN | 50 | Need Stripe/payment data |
-
-**CRITICAL GAPS**:
-- No API integration with Smartlead (can't pull campaign data automatically)
-- No trial system tracking
-- No subscriber count sync (need Stripe API or manual count)
-
-**ACTION NEEDED**: Set up API connections for real-time pipeline tracking.
+| Metric | Value | Status |
+|--------|-------|--------|
+| **Paying Subscribers** | 0 | 🔴 Zero revenue |
+| **Beta Users** | 2 (Mike, Brandon) | 🟡 Active, not paying yet |
+| **Pilot Contacts Ready** | 200 | ✅ Extracted, validated |
+| **Email Domains Warming** | 3 (try/get/use agendainsider.com) | ⚠️ Status unknown |
+| **Landing Pages Live** | 0 | 🟡 1 built, needs deployment |
+| **Monthly Burn Rate** | ~$286-376 | 🟡 Manageable until first revenue |
 
 ---
 
-## 💰 FINANCIAL TRACKER
+## 🔥 WARMUP STATUS (Instantly.ai)
 
-### Current Spending (February 2026)
-| Category | This Week | This Month | YTD 2026 | Status |
-|----------|-----------|------------|----------|--------|
-| **Anthropic API (Claude)** | ⚠️ UNKNOWN | ⚠️ UNKNOWN | ⚠️ UNKNOWN | Need console.anthropic.com check |
-| **GitHub Copilot** | ~$3.50 | ~$15 | ~$30 | ~$10-19/mo subscription |
-| **OpenAI/ChatGPT** | ~$5 | ~$20 | ~$40 | ~$20/mo subscription |
-| **Google Gemini** | ~$5 | ~$20 | ~$40 | ~$20/mo subscription |
-| **Grok** | ~$2-4 | ~$8-16 | ~$16-32 | ~$8-16/mo subscription |
-| **Perplexity** | ~$5 | ~$20 | ~$40 | ~$20/mo subscription |
-| **Apollo.io** | ~$25 | ~$99 | ~$198 | $99/mo |
-| **Smartlead** | ~$22 | ~$89 | ~$178 | $89/mo |
-| **HubSpot** | ⚠️ UNKNOWN | ⚠️ UNKNOWN | ⚠️ UNKNOWN | Need tier info |
-| **Warmly** | ⚠️ UNKNOWN | ⚠️ UNKNOWN | ⚠️ UNKNOWN | Need tier info |
-| **Google Ads** | ⚠️ UNKNOWN | ⚠️ UNKNOWN | ⚠️ UNKNOWN | Need spend data |
-| **Namecheap (Domains)** | $0 | ~$15 | ~$30 | Hosting + domains |
-| **TOTAL ESTIMATED** | **~$67-77** | **~$286-376** | **~$572-752** | |
+| Domain | Status | Notes |
+|--------|--------|-------|
+| **tryagendainsider.com** | ⚠️ UNKNOWN | Warming phase - Aaron to check manually |
+| **getagendainsider.com** | ⚠️ UNKNOWN | Warming phase - Aaron to check manually |
+| **useagendainsider.com** | ⚠️ UNKNOWN | Warming phase - Aaron to check manually |
 
-**REVENUE (February 2026)**:
-| Source | This Week | This Month | YTD 2026 |
-|--------|-----------|------------|----------|
-| **Agenda Insider Subscriptions** | ⚠️ UNKNOWN | ⚠️ UNKNOWN | ⚠️ UNKNOWN |
-| **BidList Revenue** | ⚠️ UNKNOWN | ⚠️ UNKNOWN | ⚠️ UNKNOWN |
-| **TOTAL** | ⚠️ UNKNOWN | ⚠️ UNKNOWN | ⚠️ UNKNOWN |
+**API Issue**: Instantly.ai API returned `ERR_AUTH_FAILED` with provided key. Need Aaron to verify account active or provide updated key.
 
-**Burn Rate**: ~$286-376/month  
-**Runway**: UNKNOWN (need revenue data)
-
-**ACTION NEEDED**: Aaron to provide Stripe/payment processor access for subscriber counts and revenue tracking.
+**Action**: Aaron manually check Instantly.ai dashboard → report warmup status for all 3 domains (days in cycle, daily send count, deliverability score).
 
 ---
 
-## ✅ TASK BOARD
+## 📋 TODAY'S COMPLETED WORK (Feb 14)
 
-### Active Tasks (In Progress)
-| Task | Owner | Status | Deadline | Notes |
-|------|-------|--------|----------|-------|
-| **Greg Isenberg Video Analysis** | Jack | ✅ DONE | 2026-02-14 | Transcript fetched, analysis complete, saved to jack-learnings/ |
-| **Target Market Expansion** | Jack | ✅ DONE | 2026-02-14 | Full industry analysis complete, 9K TAM identified |
-| **Workflow Dashboard** | Jack | 🚧 IN PROGRESS | 2026-02-14 | This document—needs API integrations for live data |
-| **Scout Sub-Agent Setup** | Jack | 🚧 NEXT | 2026-02-14 | Can't spawn agents; will create cron job instead |
-| **ARR Projections Update** | Jack | 🚧 NEXT | 2026-02-14 | Based on target market expansion |
+### ✅ Priority 2: 200 Pilot Contacts Extracted
+- **File**: `pilot-200-contacts-FINAL.csv`
+- **Breakdown**: 15 excavators, 185 general contractors
+- **Sources**: Jacobs HBA UT + Daves HBA UT lists
+- **Quality**: Deduplicated, email validated
+- **Status**: Ready for pilot launch
 
-### Completed Today (2026-02-14)
-- ✅ Greg Isenberg video research (digital gravity playbook)
-- ✅ Target market expansion analysis (35+ industries, ~9K TAM)
-- ✅ Workflow dashboard creation
+### ✅ Priority 3: Cold Email Copy Drafted
+- **File**: `pilot-email-copy.md`
+- **A/B Test Design**: 
+  - Track A (Hunting): "72-hour head start" message — 100 contacts
+  - Track B (Defense/Sentinel): "Protect your territory" message — 100 contacts
+- **Follow-ups**: 3-day and 7-day sequences for non-responders
+- **Specs**: <60 words, "Quick question" subject, Tuesday-Thursday 8-11 AM MT
+- **Status**: Ready to import to Instantly.ai
+
+### ✅ Priority 4: Landing Page Built
+- **File**: `excavation-landing-page.html`
+- **URL Target**: agendainsiderapp.com/excavation
+- **Features**: Hero, benefits, testimonial, pricing, CTA
+- **Missing**: Map view screenshot (placeholder)
+- **Status**: Needs deployment to live site
+
+### ✅ Priority 1: Beta User Messages (DRAFT - Awaiting Aaron Approval)
+- **File**: `beta-user-conversion-messages-DRAFT.md`
+- **3 Options**: Simple ask, value reinforcement, soft trial extension
+- **Target**: Mike and Brandon
+- **Status**: **DO NOT SEND - Awaiting Aaron's review and edits**
+
+### ✅ Priority 5: Sentinel Mode Feature Brief (Ready for Jeff)
+- **File**: `sentinel-mode-feature-brief.md`
+- **Purpose**: Anti-churn feature (addresses 9-month busy cycle)
+- **Dev Time**: 2 hours (Phase 1 MVP)
+- **ROI**: 8x at 100 subscribers, 40x at 500 subscribers
+- **Status**: **Ready for Jeff - Awaiting Aaron's decision on timing**
+
+---
+
+## 💰 REVENUE & SUBSCRIBERS
+
+### Current State
+- **Paying Subscribers**: 0
+- **MRR**: $0
+- **ARR**: $0
+- **Beta Users**: 2 (Mike, Brandon)
+
+### Target Milestones
+| Milestone | Target Date | Progress |
+|-----------|-------------|----------|
+| **First paying customer** | February 2026 | 🔴 Not yet achieved |
+| **10 paying customers** | End of March | 0/10 |
+| **25 paying customers** | End of April | 0/25 |
+| **50 paying customers** | End of May | 0/50 |
+
+**Critical Path**: Convert Mike & Brandon → Launch pilot (200 contacts) → First 2-5 paying customers from pilot
+
+---
+
+## 📧 PILOT CAMPAIGN STATUS
+
+### Ready to Launch
+- ✅ 200 contacts extracted and validated
+- ✅ Email copy written (Track A + Track B)
+- ✅ Landing page built (needs deployment)
+- ⚠️ Warming status unknown (Instantly.ai API issue)
+
+### Blockers
+1. **Warmup verification**: Need confirmation from Aaron that 3 domains are ready
+2. **Landing page deployment**: excavation-landing-page.html needs to go live
+3. **Instantly.ai import**: Need to import CSV + set up campaigns in Instantly
+
+### Launch Timeline (Estimated)
+- **February 17**: Import contacts, configure campaigns in Instantly
+- **February 18-20**: Send initial batch (78 emails/day = 3 days to send 200)
+- **February 21-27**: Follow-ups + monitor open/reply rates
+- **February 27**: Analyze A/B test results (Track A vs Track B)
+- **March 1**: Scale with winning message track
+
+---
+
+## 🎯 ACTIVE TASKS
+
+### In Progress
+| Task | Status | Owner | Deadline |
+|------|--------|-------|----------|
+| Warmup verification | ⚠️ BLOCKED | Aaron | ASAP |
+| Landing page deployment | 🚧 PENDING | Aaron/Jeff | Feb 17 |
+| Instantly.ai campaign setup | 🚧 PENDING | Jack | Feb 17 |
+| Beta user outreach | 📝 DRAFT | Aaron | Feb 15 |
 
 ### Blocked
-| Task | Blocker | Owner | Resolution |
-|------|---------|-------|------------|
-| **Real-Time Warmup Status** | No Smartlead API integration | Jack | Need API key + integration |
-| **Pipeline Metrics** | No Smartlead + HubSpot sync | Jack | Need API access |
-| **Subscriber Count** | No Stripe/payment access | Aaron | Need dashboard access |
-| **Revenue Tracking** | No financial system access | Aaron | Need Stripe/QuickBooks access |
+| Task | Blocker | Resolution |
+|------|---------|------------|
+| Real-time warmup tracking | Instantly.ai API auth failed | Aaron verify account + provide working API key |
+| Pilot launch | Warmup status unknown | Aaron manually check Instantly dashboard |
+| Revenue tracking | Zero subscribers | Convert Mike & Brandon first |
 
-### Upcoming (Next 72 Hours)
-- 🔜 Scout cron job setup (nightly innovation monitoring)
-- 🔜 Updated ARR projections with expanded TAM
-- 🔜 Domain isolation audit (verify cold email domains)
-- 🔜 Multi-channel ad test ($200 budget—Google/Facebook customer match)
-- 🔜 72-hour self-audit (next one due ~2026-02-17)
-
----
-
-## 🎯 NEXT MILESTONES
-
-| Milestone | Target Date | Completion % | Blockers |
-|-----------|-------------|--------------|----------|
-| **50 Active Subscribers** | 2026-03-31 | ⚠️ UNKNOWN | Need current subscriber count |
-| **4% Conversion Rate** | 2026-04-30 | ⚠️ UNKNOWN | Need conversion tracking |
-| **$5K MRR** | 2026-06-30 | ⚠️ UNKNOWN | Need revenue data |
-| **Multi-Channel Campaign Live** | 2026-02-28 | 0% | Need Google/Facebook Ads setup |
-| **Expanded TAM Marketing** | 2026-03-15 | 10% | Target market analysis done, need landing pages |
+### Upcoming (Next 7 Days)
+- 🔜 Deploy landing page to live site
+- 🔜 Import pilot contacts to Instantly.ai
+- 🔜 Launch pilot campaign (Track A vs Track B)
+- 🔜 Aaron sends beta user conversion messages
+- 🔜 Build Google Ads campaign ($200 test budget)
 
 ---
 
-## 📈 PERFORMANCE TRENDS (Week-over-Week)
+## 💸 SPENDING & BUDGET
 
-### Email Campaigns
-| Metric | Last Week | This Week | Change | Trend |
-|--------|-----------|-----------|--------|-------|
-| **Emails Sent** | ⚠️ UNKNOWN | ⚠️ UNKNOWN | ⚠️ | ⚠️ |
-| **Open Rate** | ⚠️ UNKNOWN | ⚠️ UNKNOWN | ⚠️ | ⚠️ |
-| **Reply Rate** | ⚠️ UNKNOWN | ⚠️ UNKNOWN | ⚠️ | ⚠️ |
-| **Deliverability** | ⚠️ UNKNOWN | ⚠️ UNKNOWN | ⚠️ | ⚠️ |
+### Current Monthly Spend
+| Tool | Cost/Month | Status | ROI Rating |
+|------|-----------|--------|------------|
+| **Anthropic API** | ~$0-50 | Pay-per-use | KEEP (core infrastructure) |
+| **GitHub Copilot** | ~$10-19 | Active | KEEP (sub-agent work) |
+| **Instantly.ai** | $97 | Active | KEEP (email infrastructure) |
+| **Apollo.io** | $99 | Active | WATCH (may need for more excavator contacts) |
+| **OpenAI/ChatGPT** | ~$20 | Active | WATCH (evaluate usage vs Anthropic) |
+| **Google Gemini** | ~$20 | Active | WATCH (evaluate usage) |
+| **Grok** | ~$8-16 | Active | WATCH (evaluate usage) |
+| **Perplexity** | ~$20 | Active | WATCH (evaluate usage) |
+| **Namecheap** | ~$15 | Active | KEEP (11 domains registered) |
 
-### Conversions
-| Metric | Last Week | This Week | Change | Trend |
-|--------|-----------|-----------|--------|-------|
-| **Trials Started** | ⚠️ UNKNOWN | 0 | ⚠️ | ⚠️ |
-| **Subscribers Added** | ⚠️ UNKNOWN | ⚠️ UNKNOWN | ⚠️ | ⚠️ |
-| **Churn** | ⚠️ UNKNOWN | ⚠️ UNKNOWN | ⚠️ | ⚠️ |
-
-**ACTION NEEDED**: Historical data collection starting now. Week-over-week tracking begins 2026-02-21.
+**Total Monthly**: ~$286-376  
+**Revenue**: $0  
+**Burn Rate**: 100% (no revenue yet)  
+**Action**: First 3-4 paying customers cover operational costs
 
 ---
 
-## 🚨 ALERTS & ANOMALIES
+## 📈 METRICS TO TRACK (Pilot Campaign)
 
-| Alert | Severity | Status | Action Required |
-|-------|----------|--------|-----------------|
-| **Missing API Integrations** | 🔴 HIGH | ONGOING | Need Smartlead, Stripe, HubSpot API access |
-| **No Trial Tracking System** | 🟡 MEDIUM | ONGOING | Build trial signup funnel + tracking |
-| **Cron Jobs Failing** | 🔴 HIGH | ACTIVE | Docker volume mount issue at `/home/node` |
-| **Subscription Tool Waste** | 🟡 MEDIUM | REVIEW | ChatGPT, Gemini, Grok, Perplexity—evaluate usage vs cost |
+### Email Performance
+| Metric | Target | Track A | Track B | Winner |
+|--------|--------|---------|---------|--------|
+| **Open Rate** | >30% | TBD | TBD | TBD |
+| **Reply Rate** | >8% | TBD | TBD | TBD |
+| **Trial Signups** | >5% (5+ trials) | TBD | TBD | TBD |
+| **Paid Conversions** | >2% (2+ paying) | TBD | TBD | **CRITICAL** |
+
+### Financial Impact
+| Scenario | Subscribers | MRR | ARR |
+|----------|-------------|-----|-----|
+| **Pilot: 2% conversion** | 4 | $400 | $4,800 |
+| **Pilot: 4% conversion** | 8 | $800 | $9,600 |
+| **Scale: 4% of 1,500 contacts** | 60 | $6,000 | $72,000 |
+| **Full TAM: 4% of 12,000** | 480 | $48,000 | $576,000 |
+
+---
+
+## 🚨 ALERTS & DECISIONS NEEDED
+
+### 🔴 High Priority
+1. **Aaron: Check Instantly.ai warmup status** (manual check needed, API broken)
+2. **Aaron: Deploy landing page** (excavation-landing-page.html → live site)
+3. **Aaron: Review & send beta user messages** (Mike & Brandon conversion)
+
+### 🟡 Medium Priority
+4. **Aaron: Decide Sentinel Mode timing** (present to Jeff now or wait?)
+5. **Jack: Build Google Ads campaign** (when pilot launches)
+6. **Aaron: Evaluate ChatGPT/Gemini/Grok usage** (cut wasteful subscriptions?)
+
+### 🟢 Low Priority
+7. Get Map view screenshot for landing page
+8. Build additional industry landing pages (plumbers, electricians)
+9. Set up HubSpot CRM for lead tracking
 
 ---
 
@@ -152,27 +204,48 @@ Last Updated: 2026-02-14 05:56 UTC (10:56 PM MT)
 
 | System | Status | Last Check | Notes |
 |--------|--------|------------|-------|
-| **OpenClaw Gateway** | ✅ ONLINE | 2026-02-14 05:56 UTC | Running in Docker on Mac Mini |
-| **Discord Bot (@JackAgent)** | ✅ ONLINE | 2026-02-14 05:56 UTC | Connected to Jack AI server |
-| **GitHub Repo (JackAgentBot/Agenda-Insider)** | ✅ ONLINE | 2026-02-14 | Files syncing properly |
-| **Smartlead Warmup** | ⚠️ UNKNOWN | NEVER | Need API check |
-| **HubSpot CRM** | ⚠️ UNKNOWN | NEVER | Need login/API check |
+| **OpenClaw Gateway** | ✅ ONLINE | 2026-02-14 5:30 PM UTC | Running on Mac Mini |
+| **GitHub Repo** | ✅ ONLINE | 2026-02-14 | All work pushed (commit b9d389e) |
+| **Discord Bot** | ✅ ONLINE | 2026-02-14 | Connected |
+| **Instantly.ai** | ⚠️ API ERROR | 2026-02-14 | Auth failed - need Aaron to check |
+| **agendainsider.com** | ✅ ONLINE | Unknown | Product live, 581+ projects |
 
 ---
 
-## 📝 NOTES
+## 📝 NEXT 48 HOURS
 
-### Dashboard Improvements Needed
-1. **API Integrations**: Connect Smartlead, Stripe, HubSpot for real-time data
-2. **Historical Tracking**: Start logging daily snapshots for trend analysis
-3. **Automated Updates**: Cron job to refresh dashboard every 6 hours
-4. **Visual Charts**: Add charts for email performance, revenue trends (future enhancement)
+### Saturday, Feb 15
+- Aaron reviews beta user messages
+- Aaron checks Instantly.ai warmup status manually
+- Jack builds Google Ads campaign draft
 
-### Usage
-- **Aaron**: Check this dashboard anytime to see what Jack is working on and where we stand
-- **Jack**: Update after every completed task and at end of day
-- **Frequency**: Real-time updates as tasks complete; full refresh every 6 hours
+### Sunday, Feb 16
+- Aaron deploys landing page (if ready)
+- Jack prepares Instantly.ai campaign import
+- Aaron sends beta user conversion messages (if approved)
+
+### Monday, Feb 17
+- Import pilot contacts to Instantly.ai
+- Configure Track A and Track B campaigns
+- Launch pilot (if warmup confirmed ready)
 
 ---
 
-**Dashboard Status**: 🟡 PARTIALLY FUNCTIONAL — Core structure in place, but needs API integrations for live data. Many metrics are placeholders until Aaron provides access to Smartlead, Stripe, and other tools.
+## 💡 KEY INSIGHTS FROM V4.0 UPGRADE
+
+1. **TAM is 12,000-15,000 firms** (not 9,000) — Tier 1 alone (excavators + GCs + civil engineers + developers) = ~12,000 high-priority targets
+
+2. **Churn risk is solvable** — 9-month busy cycle causes churn, but "Sentinel Mode" (radar on the dash) shifts from "hunting" to "defense" messaging
+
+3. **Marketing spend = 80% to excavators & GCs** (fall/winter), 15% to suppliers/lenders (relationship sales), 5% to support trades (spring/summer churn buffer)
+
+4. **Pilot is a message test** — Not just volume, but which message converts better: Track A (hunting) vs Track B (defense/sentinel)
+
+5. **First revenue = proof** — Mike & Brandon conversion proves business model before scaling pilot
+
+---
+
+**Dashboard URL**: https://github.com/JackAgentBot/Agenda-Insider/blob/main/jack-reports/dashboard-live.md  
+**Refresh this page** after tasks complete to see updates.
+
+**Last updated**: 2026-02-14 11:30 AM MT by Jack
