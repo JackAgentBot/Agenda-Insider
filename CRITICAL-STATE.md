@@ -1,325 +1,315 @@
-# CRITICAL STATE - READ FIRST AFTER ANY RESTART
+# CRITICAL STATE — TRUE CURRENT STATE
 
-**Last Updated:** 2026-02-12 22:56 UTC  
-**Purpose:** Mission-critical information Jack cannot afford to forget
-
----
-
-## API KEYS & CREDENTIALS
-
-### Instantly.ai
-- **API Key:** `NWU1ZDRjMTgtZmFjYy00OGVhLTgyZWItYTI4MDE5Y2QxMjcwOllabWpabGpGd2NiRw==`
-- **Status:** Not yet configured (Aaron needs to sign up first)
-- **Plan:** Growth ($97/mo) - supports unlimited domains, 5,000 contacts
+**Last Updated:** 2026-02-14 09:00 AM MT  
+**Purpose:** Jack's authoritative reference for Agenda Insider's current state
 
 ---
 
-## DOMAINS (11 Total - All Active at Namecheap)
+## THE PRODUCT
 
-### Full Domain List
+**Agenda Insider** = Live SaaS product at **agendainsider.com**
+
+**What it does:** Monitors municipal planning commission agendas and transforms them into early-stage construction project leads. Gives customers a 6-18 month head start on projects — before permits, before bids, before competitors know the work exists.
+
+**Three core features customers use today:**
+1. **Data Explorer** - Searchable, filterable table of all planning projects (581+ projects live in Utah County + Salt Lake County)
+2. **Map View** - Geographic parcel map with project pins (846+ projects plotted)
+3. **Alerts** - Save searches with specific criteria, receive daily/weekly email digests ("Save This Search" = core engagement loop)
+
+**Status:** FREE BETA. Mike and Brandon are active beta users. Product works. Data is real. **Zero paying customers yet.**
+
+---
+
+## THE PRICING (CONFIRMED)
+
+- **$100/month** for first region (e.g., Utah County)
+- **$50/month** for each additional region
+- **14-day free trial** (no credit card required)
+- **Cancel anytime** (no contracts)
+
+**Examples:**
+- 1 region = $100/month ($1,200/year)
+- 2 regions = $150/month ($1,800/year)
+- 3 regions = $200/month ($2,400/year)
+- Utah + Vegas = $150/month
+
+**CRITICAL:** Older docs reference $97 or $99. Those are WRONG. Always use $100/$50 pricing.
+
+---
+
+## THE MARKET (9,000+ BUSINESSES)
+
+### Primary Target (Tier 1): 2,887 Businesses
+"Dirt guys and general contractors" — the people who win or lose based on early intel:
+- Excavation & grading (200 businesses)
+- General contractors (287)
+- Residential builders (270)
+- Concrete & foundation (280)
+- Plumbing contractors (400)
+- Electrical contractors (450)
+- HVAC contractors (370)
+- Roofing companies (330)
+- Framing contractors (180)
+- Commercial developers (120)
+
+### Secondary Targets (Tier 2-6): ~6,100 Businesses
+Construction-adjacent industries that benefit from early project intelligence:
+- Material suppliers (95)
+- Equipment rental (70)
+- Real estate agents specializing in new construction (2,348)
+- Architects (270)
+- Civil engineers (190)
+- Title companies (135)
+- Mortgage brokers (500)
+- Land surveyors (105)
+- Landscape architects (80)
+- Interior designers (140)
+- Property management (280)
+- Sign companies (80)
+- Utility contractors (73)
+- Environmental consultants (55)
+- Geotechnical engineers (48)
+- And 20+ more industries (see jack-learnings/target-market-expansion-2026-02-14.md)
+
+**Total Addressable Market (TAM):** ~9,000 businesses in Utah County + Salt Lake County
+
+**Revenue Model at 4% Conversion:**
+- 9,000 businesses × 4% = 360 paying subscribers
+- 360 subscribers × $100/month average = **$36,000 MRR** = **$432,000 ARR**
+- At 10% conversion (market leader): $90,000 MRR = $1,080,000 ARR
+
+**Geographic Coverage:**
+- **Current:** Utah (multiple counties — Salt Lake, Utah, Davis, surrounding areas)
+- **Phase 2:** Clark County, Nevada (Las Vegas Valley)
+- **Long-term:** 92 target regions across the United States
+
+---
+
+## THE TEAM
+
+**Aaron Earnest — CEO**
+- Owns commercial strategy, customer relationships, pricing, capital, partnerships
+- Handles HBA relationships, association partnerships, industry networking
+- Based in Utah (Mountain Time)
+
+**Jeff — CTO**
+- Built the product: scrapers, database, web app (Data Explorer + Map), alert system
+- Sole developer
+- **Role:** Scraping all public records + managing website functionality
+  1. Website accepts visitors and signups (payments via Stripe, all website functionality)
+  2. Data being scraped is properly represented on site (search + email reports)
+- **Not responsible for:** Sales, marketing, outreach, or anything customer-facing
+
+**Jack (Me) — VP of Sales & Marketing**
+- **Full responsibility:** Email outreach, billboards, social media, Google Ads, landing pages, HBA relationships, referral programs, innovation research, identifying new target industries, webinars, mailers, call-to-action optimization, hooks that drive action
+- **Mission:** Convert free beta users to paying customers, then scale to 4% of 9,000+ TAM
+- **Infrastructure:** Mac Mini running OpenClaw + Claude, Instantly.ai for email, Apollo for lead scraping, HubSpot (planned)
+- **Cost:** ~$286-376/month operational spend (Anthropic API, GitHub Copilot, Instantly.ai, Apollo, domains, etc.)
+
+**No Dave Mineer:** Dave was a potential co-founder discussed in Nov 2025 partnership docs. He is NOT involved. Ignore all references to Dave, kill-switch thresholds, or equity splits. It's just Aaron, Jeff, and Jack.
+
+---
+
+## CURRENT REVENUE: ZERO
+
+- Product is live and functional
+- Beta users exist and are active (Mike, Brandon, others)
+- **No paying customers yet**
+- Transition from free beta → paid subscribers = THE critical milestone
+- First paying customer = proof of business model
+
+---
+
+## SALES & MARKETING INFRASTRUCTURE
+
+### Email Domains (11 Total at Namecheap)
 1. agendainsiderapp.com
 2. agendainsiderhq.com
 3. agendainsiderhub.com
 4. agendainsiderlabs.com
 5. agendainsiderly.com
-6. getagendainsider.com ⭐
+6. getagendainsider.com
 7. meetagendainsider.com
 8. openagendainsider.com
 9. theagendainsider.com
-10. tryagendainsider.com ⭐
-11. useagendainsider.com ⭐
+10. tryagendainsider.com
+11. useagendainsider.com
 
-**Expiration:** February 2027 (all domains)  
-**Registrar:** Namecheap  
-**Auto-renew:** Enabled
+**Expiration:** February 2027 (all domains, auto-renew enabled)
 
-### Pilot Domains (Start with These 3)
+### Pilot Domains (Warming Now via Instantly.ai)
 1. **tryagendainsider.com** - Primary cold outreach
-2. **getagendainsider.com** - Follow-ups and re-engagement
+2. **getagendainsider.com** - Follow-ups
 3. **useagendainsider.com** - Executive sequences
 
-**Rationale:** "Try/Get/Use" = low-pressure, action-oriented, high-trust signals. Test deliverability before scaling to all 11.
-
-### Reserved for Later
-- meetagendainsider.com → Demo booking sequences (Phase 3)
-- agendainsiderhq.com → Enterprise/high-value sequences
-- agendainsiderlabs.com → Beta/innovation messaging
-- (Remaining 5 domains) → Scale after pilot success
-
----
-
-## CURRENT PROJECT STATUS
-
-### Mission
-Launch Utah HBA email campaign to achieve **4% subscription conversion** (80 paid subscribers from 2,000 contacts).
-
-### Target Market
-- **Primary:** 2,000 Utah Home Builders Association members
-- **Pilot:** 200 contacts (Utah County + Salt Lake County only)
-- **Industries:** General contractors, site work, excavation, developers
-
-### Product Offering
-- **Product:** Agenda Insider (SaaS subscription)
-- **Pricing:** TBD - Aaron reviewing 3 options (see Pricing section below)
-- **Features:** Explore v2 + Map (descriptions pending from Aaron)
-
----
-
-## ACTIVE TIMELINE
-
-### Phase 1: Infrastructure Setup
-- **Feb 12 (DONE):** Domain selection, competitive research, Instantly configuration plan
-- **Feb 13 (TODAY):** Aaron signs up for Instantly, configures DNS for 3 domains
-- **Feb 14:** Begin domain warming (automated, 30-day cycle)
-
-### Phase 2: Pilot Launch
-- **Feb 18:** Pilot launch (200 contacts, 3 domains)
-- **Feb 18-25:** Monitor metrics (open rate, reply rate, bounce rate, spam complaints)
-- **Feb 25:** GO/NO-GO decision (scale to 11 domains or adjust?)
-
-### Phase 3: Full Launch
-- **Feb 26 (if GO):** Add 8 remaining domains, begin warming cycle
-- **Mar 10:** Full launch (2,000 contacts, all 11 domains at capacity)
-- **Apr 15:** Target date to reach 80 subscribers (4% conversion)
-
----
-
-## PRICING (CONFIRMED BY AARON - FEB 13, 2026)
-
-### Final Pricing Structure
-- **$100/month** for first region
-- **$50/month** for each additional region
-- **14-day free trial** (full access, credit card required)
-- **Cancel anytime, no contracts**
-
-### Examples
-- 1 region (Utah County only): $100/mo
-- 2 regions (Utah + Salt Lake): $150/mo
-- 4 regions: $250/mo
-
-### Currently Live Regions
-- Utah County
-- Salt Lake County
-
-### Product Description
-Agenda Insider gives construction professionals early access to pre-permit planning data. Explore page lets users browse upcoming projects before permits are filed. Map shows project locations geographically. Intelligence competitors don't have — subscribers find out before permits go public.
-
-### Revenue Projections (Updated Feb 13)
-- **20,000 targets × 4% = 800 subscribers**
-- **Scenario 1 (1 region avg):** 800 × $100/mo = $80,000/mo = **$960,000 ARR**
-- **Scenario 2 (1.5 regions avg):** 800 × $150/mo = $120,000/mo = **$1,440,000 ARR**
-- **Scenario 3 (2 regions avg):** 800 × $200/mo = $160,000/mo = **$1,920,000 ARR**
-
----
-
-## PENDING DECISIONS FROM AARON
-
-### High Priority (Needed for Feb 13 execution)
-1. **Instantly.ai signup** - Sign up, provide Jack with dashboard access
-2. **DNS configuration** - Add SPF/DKIM/DMARC for 3 pilot domains at Namecheap
-3. **Product feature descriptions** - What do Explore v2 and Map do? (30 seconds each - needed for email copy)
-4. **Git push** - Push 5 commits from /tmp/Agenda-Insider to GitHub
-
-### Medium Priority (Needed by Feb 18)
-5. **Pricing decision** - Choose from 3 options above
-6. **Contact list preparation** - Select 200 pilot contacts (Utah County + Salt Lake County)
-7. **Clay signup** - $149/mo for AI personalization (optional but recommended)
-
-### Low Priority (Can decide later)
-8. **Multi-channel expansion** - Add LinkedIn outreach? (competitive research suggests value)
-9. **GlockApps** - Add deliverability monitoring beyond Instantly's built-in? ($49/mo, on hold for now)
-
----
-
-## KEY COMPETITIVE INSIGHTS (FROM FEB 12 RESEARCH)
-
-### Construction Email Benchmarks
-- **ROI:** 3,800% (highest marketing channel for construction)
-- **Open rates:** 21.7-39.14% (target 25-35%)
-- **Click-to-open rate:** 17.2% (highest of all industries)
-
-### B2B SaaS Cold Email Benchmarks
-- **Reply rates:** 5-10% solid, 10-15% excellent, 15%+ best-in-class
-- **Free trial conversions:** 8-10%
-- **Direct sales conversions:** 1-4%
-- **Meeting booking rate:** 2.2% average
-
-### Jack's Conclusion
-**Our 4% subscription target is CONSERVATIVE.** Based on research, realistic range is 5-8% (80-160 paid subs from 2,000 contacts).
-
----
-
-## INFRASTRUCTURE CONFIGURATION STATUS
-
-### Instantly.ai
-- **Status:** Plan created, DNS guide written, warming schedule mapped
-- **Blocked by:** Aaron needs to sign up first
-- **Documentation:** jack-reports/instantly-setup-2026-02-12.md
-
-### DNS Records (Needed for 3 Pilot Domains)
-**For each domain (try/get/use agendainsider.com):**
-- SPF: `v=spf1 include:_spf.instantly.ai ~all`
-- DKIM: `[Get from Instantly dashboard after adding domain]`
-- DMARC: `v=DMARC1; p=quarantine; rua=mailto:dmarc@agendainsider.com; pct=100; adkim=r; aspf=r`
-- **Status:** NOT YET CONFIGURED (Aaron needs to do this Feb 13)
-
-### Domain Warming Schedule
-- **Days 1-7:** 10-30 emails/day per domain
-- **Days 8-14:** 30-80 emails/day per domain
-- **Days 15-21:** 80-150 emails/day per domain
-- **Days 22-30:** 150-200 emails/day per domain
-- **Full capacity:** 450-600 emails/day (3 domains at 150-200 each)
-
----
-
-## GIT STATUS
-
-### Repository Location
-- **Local:** /tmp/Agenda-Insider
-- **Remote:** https://github.com/JackAgentBot/Agenda-Insider.git
-- **Branch:** main
-
-### Commits Ready to Push (5 Total)
-1. `0d7fac1` - Campaign infrastructure (overnight Feb 12)
-2. `c3efdc0` - Research & audit
-3. `9a1b18c` - Execution report
-4. `f3e676e` - Competitive research (Feb 12 evening)
-5. `dfb47a4` - Instantly configuration plan (Feb 12 evening)
-
-**Authentication Issue:** Git requires GitHub credentials (HTTPS token or SSH key).  
-**Workaround:** Aaron can push manually from Mac: `cd /tmp/Agenda-Insider && git push origin main`
-
----
-
-## AARON'S STANDING ORDERS
-
-### Crash Recovery Protocol
-1. **Before asking Aaron for anything:** Check CRITICAL-STATE.md, MEMORY.md, memory/daily logs, GitHub repo
-2. **Every night:** Write SESSION-SUMMARY.md to jack-reports/ (what worked on, what's pending, what's blocked, what decisions needed)
-3. **Update CRITICAL-STATE.md:** Every time something important changes (new API keys, decisions, timeline shifts)
-4. **Push to GitHub:** Immediately after updates
-
-### Communication Rules
-- **Under $50:** Proceed, log it, tell Aaron after
-- **Over $50:** Ask Aaron first
-- **External emails/messages:** Ask Aaron first
-- **Internal changes:** Proceed freely
-- **When unsure:** Act on best judgment, flag to Aaron, course-correct later
-
-### The Loop (Run on Every Task)
-1. MEASURE - What are our numbers right now?
-2. COMPARE - What are winning companies doing?
-3. GAP - What's the difference?
-4. FIX - Propose one specific change
-5. TEST - Small batch before scaling
-6. REPORT - What changed, what moved, what's next
-7. REPEAT
-
----
-
-## FAILURE MODES TO AVOID
-
-### ❌ What Jack Did Wrong (Feb 12)
-- Asked for 11 domains AGAIN when they were in memory/2026-02-12.md
-- Wasted Aaron's time asking for information already provided
-- Failed to check existing context before asking
-
-### ✅ What Jack Must Do Instead
-1. **ALWAYS check memory first:** CRITICAL-STATE.md → MEMORY.md → memory/daily logs → GitHub repo
-2. **ONLY ask Aaron if NOT FOUND** in any of those locations
-3. **Aaron's time is valuable** - never waste it on information Jack already has
-
----
-
-## SUCCESS METRICS (THE ONE NUMBER)
-
-**4% subscription conversion rate = 80 paid subscribers from 2,000 contacts**
-
-### How We Measure Success
-- Open rate: Target >30%
-- Reply rate: Target >8%
-- Meeting booking rate: Target >3%
-- Trial signup rate: Target >5%
-- **Paid conversion rate: Target 4-6%** (conservative, research suggests 5-8% realistic)
-
-### Revenue Targets
-- 80 subscribers @ $97/mo = **$7,760/month ARR**
-- 80 subscribers @ $149/mo = **$11,920/month ARR** (if Aaron chooses flat pricing)
-- **First paying customer:** Target by Mar 1
-- **20 paying customers:** Target by Mar 20
-- **80 paying customers:** Target by Apr 15
-
----
-
-## CONTACT ASSETS
+**Status:** Warming phase (30-day cycle). Launch pilot when ready — Feb 27 or whenever Instantly.ai + Jack are ready to proceed wisely.
 
 ### Lead Lists (In GitHub Repo)
-1. **Jacobs HBA UT scrubbed lists.xlsx** (242KB) - Primary list
+1. **Jacobs HBA UT scrubbed lists.xlsx** (242KB) - 6 sheets (SL HBA, Utah County HBA, Park City HBA, Northern Wasatch HBA, Iron County HBA, Southern Utah HBA). Estimated 1,500-2,000 contacts.
 2. **Daves HBA UT list.xlsx** (97KB) - Secondary list
 3. **UT NV assoc networks links_contact info_angle to play.xlsx** (16KB) - Tertiary list
 
-**Total estimated contacts:** ~2,000  
-**Format:** Excel (need to convert to CSV for Instantly)  
-**Status:** Not yet processed
+**Extraction Status:** HBA Excel files parsed this morning. Ready to extract 200 pilot contacts (100 from SL, 100 from Utah County) for pilot launch.
+
+### Instantly.ai API
+- **API Key:** `NWU1ZDRjMTgtZmFjYy00OGVhLTgyZWItYTI4MDE5Y2QxMjcwOllabWpabGpGd2NiRw==`
+- **Status:** API returned `ERR_AUTH_FAILED` this morning. Need Aaron to verify account is active or provide updated key.
+- **Plan:** Growth ($97/mo) - unlimited domains, 5,000 contacts
 
 ---
 
-## NIGHTLY WORK CYCLES
+## JACK'S PRIMARY RESPONSIBILITIES
 
-### Automation Schedule (From WORKSPACE.md)
-- **7:00 AM MT:** Morning briefing (default model, ~$0.10)
-- **2:00 AM MT:** Nightly research (gpt-4o, free)
-- **Every 30 min:** Heartbeat check (cheapest, ~$0.01)
-- **Sunday 9 PM MT:** Weekly report (default, ~$0.15)
-- **Every 72 hrs:** Self-audit (default, ~$0.20)
+### 1. Convert Existing Beta Users (Immediate)
+- Mike, Brandon, and other active beta users
+- Personal outreach: "You've been using it free. Here's the $100/month plan with 14-day trial. Want to keep going?"
+- **Goal:** First 5-10 paying customers from existing users
 
-### Tonight's Planned Work (If Aaron Approves)
-1. Wait for Aaron's DNS configuration (Feb 13 morning)
-2. Verify DNS propagation (dig/nslookup checks)
-3. Begin warming cycle setup in Instantly
-4. Process 200 pilot contacts (convert Excel → CSV, clean data)
-5. Draft cold email copy (once Aaron provides product feature descriptions)
+### 2. Launch Pilot Email Campaign (Feb 27 or when ready)
+- Extract 200 contacts from HBA lists (100 SL, 100 Utah County)
+- 3 domains (try/get/use agendainsider.com)
+- Cold email sequences highlighting 6-18 month head start on projects
+- **Goal:** 8+ replies, 4+ trials started, 2+ conversions (4% of 200 = 8 paying customers)
+
+### 3. Scale Outbound (After Pilot Success)
+- Expand to full HBA lists (1,500-2,000 contacts)
+- Add remaining 8 domains
+- Segment by industry (electricians, plumbers, developers, real estate agents, etc.)
+- Build industry-specific landing pages
+
+### 4. Multi-Channel Expansion (Ongoing)
+- **Google Ads:** Target contractors searching for "planning commission agendas," "pre-permit project leads," "construction project intelligence"
+- **LinkedIn/Social:** Share case studies, demonstrate product value
+- **HBA Partnerships:** Offer Agenda Insider as member benefit, advertise in newsletters, speak at chapter meetings
+- **Referral Program:** Existing customers bring new customers (incentivize with discounts or credits)
+- **Content Marketing:** Blog posts, how-to guides, LinkedIn thought leadership
+- **Billboards (future):** High-traffic construction areas
+- **Mailers (future):** Direct mail to target industries
+
+### 5. Innovation Research (Continuous)
+- Scout system monitors best practices from similar B2B SaaS companies
+- Cold email strategy evolution (currently: 60-word emails, "Quick question" subject lines, Tuesday-Thursday sends)
+- Landing page optimization (A/B testing hooks, CTAs)
+- Conversion funnel analysis (trial → paid conversion rate)
+
+### 6. Target Market Expansion Research (Continuous)
+- Identify new industries that benefit from pre-permit intel
+- Last night's research: 35+ industries, 9,000+ TAM
+- Keep expanding the list (insurance agents, property management, sign companies, traffic control, etc.)
 
 ---
 
-## LAST KNOWN STATE BEFORE THIS UPDATE
+## SUCCESS METRICS
 
-**Date:** 2026-02-12, 7:35 PM UTC  
-**What Jack completed today:**
-- ✅ Competitive research (construction email = 3,800% ROI)
-- ✅ Domain selection (3 pilot domains chosen)
-- ✅ Instantly configuration plan written
-- ✅ DNS setup guide created
-- ✅ 2 new reports committed to git (5 commits total ready to push)
+**Primary Metric:** Paying subscribers (currently 0)
 
-**What's blocked:**
-- Instantly signup (Aaron)
-- DNS configuration (Aaron)
-- Product feature descriptions (Aaron)
-- Git push (Aaron or provide credentials)
+**4% Conversion Benchmark:**
+- 9,000 businesses × 4% = 360 paying subscribers
+- 360 × $100/month average = $36,000 MRR = $432,000 ARR
 
-**Next milestone:** Feb 13 - Aaron executes 4 items above, warming begins Feb 14
+**Intermediate Metrics:**
+- **First paying customer:** ASAP (proof of concept)
+- **10 paying customers:** End of Month 1
+- **25 paying customers:** End of Month 2
+- **50 paying customers:** End of Month 3
+- **100+ paying customers:** End of Month 6
+
+**Email Campaign Metrics (to track):**
+- Open rate: Target >30%
+- Reply rate: Target >8%
+- Trial signup rate: Target >5%
+- Trial → paid conversion: Target >50%
 
 ---
 
-**END OF CRITICAL STATE**
+## STRATEGIC GAPS & IMMEDIATE PRIORITIES
+
+### Gaps
+1. **Zero revenue** - No paying customers yet (biggest risk)
+2. **Single developer** - Jeff is sole technical resource (operational risk)
+3. **Narrow geographic coverage** - Utah only (expansion velocity matters)
+4. **Sales execution gap** - Lots of strategy docs, limited actual execution (this is Jack's job to fix)
+
+### Immediate Priorities (Next 7 Days)
+1. ✅ Updated CRITICAL-STATE.md (this document)
+2. Extract 200 pilot contacts from HBA Excel files
+3. Verify Instantly.ai warming status (need API access fix or manual check from Aaron)
+4. Draft cold email copy (problem/solution, 60 words max, "Quick question" subject line)
+5. Convert beta users (Mike, Brandon) to paid plans
+6. Build first industry-specific landing page (electricians or excavation contractors)
+
+### Next 30 Days
+1. Launch pilot email campaign (200 contacts, 3 domains)
+2. First 5-10 paying customers
+3. Google Ads campaign (test $200 budget)
+4. HBA partnership outreach (attend chapter meeting, offer member benefit)
+5. Referral program design
+
+### Next 90 Days
+1. 25+ paying customers
+2. Scale to full HBA lists (1,500-2,000 contacts)
+3. Add 8 remaining domains to Instantly.ai
+4. Launch Clark County, Nevada expansion (second market)
+5. Content marketing (blog, LinkedIn, case studies)
 
 ---
 
-## RECOVERY CHECKLIST (USE THIS AFTER ANY RESTART)
+## TOOLS & BUDGET
 
-After any restart, Jack must:
-1. ✅ Read CRITICAL-STATE.md (this file)
-2. ✅ Read SOUL.md (operating directives)
-3. ✅ Read AGENTS.md (repo structure, model rules)
-4. ✅ Read HEARTBEAT.md (background check protocol)
-5. ✅ Read today's memory/YYYY-MM-DD.md
-6. ✅ Read yesterday's memory/YYYY-MM-DD.md (if exists)
-7. ✅ Check /tmp/Agenda-Insider for latest commits
-8. ✅ Check jack-reports/ for latest SESSION-SUMMARY.md
+**Current Monthly Spend:** ~$286-376
+- Anthropic API (Claude): ~$0-50 (pay-per-use)
+- GitHub Copilot: ~$10-19/mo
+- Instantly.ai: $97/mo
+- Apollo.io: $99/mo
+- OpenAI/ChatGPT: ~$20/mo (evaluate if still needed)
+- Google Gemini: ~$20/mo (evaluate if still needed)
+- Grok: ~$8-16/mo (evaluate if still needed)
+- Perplexity: ~$20/mo (evaluate if still needed)
+- Namecheap domains: ~$15/mo
+
+**Future Tools (As Needed):**
+- HubSpot CRM: $0-50/mo (free tier available)
+- Google Ads: Variable (start with $200 test budget)
+- Clay (AI personalization): $149/mo (on hold)
+- GlockApps (deliverability monitoring): $49/mo (on hold)
+
+**Revenue Needed to Cover Ops:** ~$300-400/month = 3-4 paying customers
+
+---
+
+## KEY DOCUMENTS TO REFERENCE
+
+**Product Context:**
+- BUSINESS-BRIEFING.md (comprehensive overview of product, market, team, strategy)
+
+**Market Research:**
+- jack-learnings/target-market-expansion-2026-02-14.md (35+ industries, 9K TAM analysis)
+- jack-learnings/arr-projections-updated-2026-02-14.md (revenue projections at 4% conversion)
+
+**Sales Strategy:**
+- jack-learnings/greg-isenberg-digital-gravity-2026-02-14.md (B2B cold email playbook)
+- jack-learnings/scout-report-2026-02-14.md (latest best practices: 60-word emails, "Quick question" subject line)
+
+**Operational:**
+- jack-reports/dashboard-live.md (workflow dashboard, needs API integrations)
+- jack-reports/warmup-and-contacts-status-2026-02-14.md (this morning's status report)
+
+---
+
+## RECOVERY PROTOCOL (AFTER ANY RESTART)
+
+Jack must read in this order:
+1. ✅ CRITICAL-STATE.md (this file)
+2. ✅ BUSINESS-BRIEFING.md (product/market/team context)
+3. ✅ SOUL.md (operating directives)
+4. ✅ AGENTS.md (repo structure, model rules)
+5. ✅ Today's memory/YYYY-MM-DD.md
+6. ✅ Yesterday's memory/YYYY-MM-DD.md (if exists)
 
 **ONLY AFTER reading all of the above** should Jack engage with Aaron or start new work.
 
 ---
 
-**This file is Jack's brain backup. Keep it updated. Push it to GitHub immediately after any changes.**
+**This file is the single source of truth. Keep it updated. Push to GitHub after any changes.**
+
+**Current Status:** Live product, zero revenue, 9,000+ TAM, $100/$50 pricing confirmed, 3 domains warming, pilot launching when ready (Feb 27 or later).
